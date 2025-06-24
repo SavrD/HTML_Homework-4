@@ -1,0 +1,42 @@
+.clients-section {
+  padding: 94px 0;
+}
+
+.clients-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+  
+}
+
+.clients-item {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+
+  transition: background-color 300ms, color 300ms;
+}
+
+.clients-link {
+  display: flex;
+}
+
+.clients-item:hover {
+  background-color: #2196f3;
+}
+
+.clients-icon {
+  width: 40px;
+  height: 52px;
+  color: inherit;
+}

@@ -16,6 +16,7 @@
 
 .contacts-link {
   display: flex;
+  gap: 10px;
   align-items: center;
   font-size: 14px;
   font-weight: 500;
@@ -24,6 +25,10 @@
 }
 
 .contacts-link:hover {
+  color: var(--color-blue);
+}
+
+.contacts-link:hover .contacts-icon {
   color: var(--color-blue);
 }
 
@@ -43,4 +48,5 @@
   width: 10px;
   height: 16px;
   color: var(--color-gray);
+  transition: color var(--transition-duration);
 }
