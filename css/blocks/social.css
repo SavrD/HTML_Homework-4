@@ -23,7 +23,7 @@
   align-items: center;
 
   color: #afb1b8;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
   transition: background-color 300ms, color 300ms;
@@ -42,4 +42,15 @@
   width: 20px;
   height: 20px;
   color: inherit;
+}
+
+.social-footer-title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
 }
