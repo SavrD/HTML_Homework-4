@@ -1,0 +1,10 @@
+.clients-section {
+  padding: 94px 0;
+  display: flex;
+}
+
+.clients-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
