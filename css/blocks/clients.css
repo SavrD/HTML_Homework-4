@@ -1,17 +1,17 @@
-.clients-section {
+.clients {
+  margin: 0 auto;
   padding: 94px 0;
+  width: 1170px;
 }
 
 .clients-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  
-    display: flex;
-    justify-content: space-between;
-  
-    width: 100%;
-  
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
 
 .clients-item {
@@ -22,21 +22,15 @@
 
   color: #afb1b8;
   background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
 
   transition: background-color 300ms, color 300ms;
 }
 
-.clients-link {
-  display: flex;
-}
-
 .clients-item:hover {
-  background-color: #2196f3;
+  color: var(--color-blue);
 }
 
 .clients-icon {
-  width: 40px;
-  height: 52px;
-  color: inherit;
+  width: 170px;
+  height: 92px;
 }
