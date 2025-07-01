@@ -15,7 +15,6 @@
 }
 
 .clients-item {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +25,9 @@
   transition: background-color 300ms, color 300ms;
 }
 
+.clients-link {
+  display: flex;
+}
 .clients-item:hover {
   color: var(--color-blue);
 }

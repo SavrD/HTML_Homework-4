@@ -50,13 +50,15 @@
   justify-content: center;
 }
 
-.social-footer-title {
+.social-title {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   text-align: center;
   color: #fff;
   letter-spacing: 0.3px;
+  font-weight: 700px;
+  font-size: 14px;
 }
 
 .footer-flex-container {

@@ -45,7 +45,7 @@
 .contacts-icon {
   display: flex;
   justify-content: baseline;
-  width: 10px;
+  width: 16px;
   height: 16px;
   color: var(--color-gray);
   transition: color var(--transition-duration);
